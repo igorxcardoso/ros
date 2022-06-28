@@ -286,7 +286,7 @@ Faça o download do arquivo `talker.py` com seguinte comando
 ```
 Mude a forma de acesso do arquivo
 ```bash
-chmod +x talker.py
+➜  scripts git:(master) ✗ chmod +x talker.py
 ```
 
 Antes de executar o script, adicione a seguinte linhas no arquivo [CMakeLists.txt](activity1/catkin_ws/src/beginner_tutorials/CMakeLists.txt)
@@ -327,7 +327,7 @@ catkin_install_python(PROGRAMS scripts/talker.py scripts/listener.py
 ```
 Mude a forma de acesso do arquivo
 ```bash
-chmod +x listener.py
+➜  scripts git:(master) ✗ chmod +x listener.py
 ```
 
 Vá para o diretório `catkin_ws`, e faça a build do nodes como abaixo

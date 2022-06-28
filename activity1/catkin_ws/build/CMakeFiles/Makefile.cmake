@@ -18,6 +18,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/igor/projects/ros/activity1/catkin_ws/src/CMakeLists.txt"
   "/home/igor/projects/ros/activity1/catkin_ws/src/beginner_tutorials/CMakeLists.txt"
   "/home/igor/projects/ros/activity1/catkin_ws/src/beginner_tutorials/package.xml"
+  "/home/igor/projects/ros/activity1/catkin_ws/src/beginner_tutorials/scripts/listener.py"
+  "/home/igor/projects/ros/activity1/catkin_ws/src/beginner_tutorials/scripts/talker.py"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"

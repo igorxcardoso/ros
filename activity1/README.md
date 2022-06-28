@@ -335,6 +335,17 @@ Vá para o diretório `catkin_ws`, e faça a build do nodes como abaixo
 ➜  catkin_ws git:(master) ✗ catkin_make
 ```
 
-Em seguinda, execute o script `talker.py` e o `listener.py`.
+Em seguinda, execute o script `talker.py` e o `listener.py`. Se tudo ocorre como esperado, ss logs devem ser como abaixo
+```
+➜  scripts git:(master) ✗ ./listener.py
+[INFO] [1656377127.908178]: /listener_4697_1656377086377I heard hello world 1656377127.91
+[INFO] [1656377128.012565]: /listener_4697_1656377086377I heard hello world 1656377128.01
+[INFO] [1656377128.109417]: /listener_4697_1656377086377I heard hello world 1656377128.11
+[INFO] [1656377128.209804]: /listener_4697_1656377086377I heard hello world 1656377128.21
+[INFO] [1656377128.315583]: /listener_4697_1656377086377I heard hello world 1656377128.31
+[INFO] [1656377128.415404]: /listener_4697_1656377086377I heard hello world 1656377128.41
+[INFO] [1656377128.511540]: /listener_4697_1656377086377I heard hello world 1656377128.51
+...
+```
 
 *obs*: Se tentar executar `listener.py` sem executar o `talker.py` nada vai acontecer.
